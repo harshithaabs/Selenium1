@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="demoSuite" parallel="classes" thread-count="1" >
+<test name="Test" >
+<classes>
+
+<class name="TestNg.Parallel"/>
+<class name="ParallelEx.Parallel1"/>
+
+</classes>
+</test>
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DemoSuite">
+
+	<parameter name="url" value="https://www.google.com/" />
+
+	<test name="Test01">
+
+		<classes>
+
+			<class name="TestNg.Parameter" />
+
+		</classes>
+
+	</test>
+
+	<test name="Test02">
+
+		<parameter name="url" value="https://www.amazon.com/" />
+
+		<classes>
+
+			<class name="TestNg.Parameter" />
+
+		</classes>
+
+	</test>
+
+</suite>
